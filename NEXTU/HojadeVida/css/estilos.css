@@ -52,3 +52,42 @@ article> h2 {
 ul li {
   list-style-type: circle;
 }
+
+a[href^='http://']:visited{
+  color: red;
+}
+
+a:hover{
+  color: green;
+}
+
+h2:first-child{
+  text-decoration: underline;
+}
+
+input:focus{
+  width: 160px;
+  height: 140px;
+}
+
+p::first-letter{
+  text-transform: capitalize;
+}
+
+p::first-line{
+  font-size: 32px;
+}
+p::selection{
+
+}
+
+#Estudios>ul>li:first-child>a::after{
+  content: '" - after"'
+}
+
+#Estudios>ul>li:last-child>a::before{
+  content: '"before - "'
+}
+#Estudios>ul>li:nth-child(2)>a::after{
+  content: '"hijo #h2"'
+}
