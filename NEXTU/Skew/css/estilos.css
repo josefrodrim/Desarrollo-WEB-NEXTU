@@ -1,0 +1,17 @@
+div {
+    width: 300px;
+    height: 100px;
+    background-color: purple;
+    border: 1px solid black;
+    margin-left: 100px;
+    color: white;
+}
+
+#original {
+  margin-top: 60px;
+  margin-bottom: 90px;
+}
+
+#transformado {
+    transform: skewY(-25deg);
+}
